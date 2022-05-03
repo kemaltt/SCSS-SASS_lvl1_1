@@ -1,0 +1,50 @@
+@import "_generals.scss";
+@import "_mixin.scss";
+@import "_variables.scss";
+// sass --watch assets/scss/main.scss assets/css/style.css
+section {
+    padding: 10vh 0;
+    ul {
+        @include flexit;
+        li {
+            list-style: none;
+            font-size: $medium;
+            &:nth-of-type(1) {
+                color: $tw-color;
+            }
+            &:nth-of-type(2) {
+                color: $be-color;
+            }
+            &:nth-of-type(3) {
+                color: $fa-color;
+            }
+            &:nth-of-type(4) {
+                color: $vi-color;
+            }
+            &:nth-of-type(5) {
+                color: $snap-color;
+            }
+            &:nth-of-type(6) {
+                color: $air-color;
+            }
+            &:nth-of-type(7) {
+                color: $amz-color;
+            }
+            &:nth-of-type(8) {
+                color: $and-color;
+            }
+            &:nth-of-type(9) {
+                color: $stc-color;
+            }
+            &:nth-of-type(10) {
+                color: $ubu-color;
+            }
+            &:nth-of-type(11) {
+                color: $git-color;
+            }
+            &:nth-of-type(12) {
+                color: $js-color;
+            }
+        }
+    }
+}
